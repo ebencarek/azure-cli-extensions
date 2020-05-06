@@ -1009,6 +1009,48 @@
                 "sha256Digest": "6cb8c879d0960e6f41e1273c309253d7d7ca42089694fcf5e500d0a27ae89b59"
             }
         ],
+        "appservice-kube": [
+            {
+                "downloadUrl": "https://k8seazurecliextensiondev.blob.core.windows.net/azure-cli-extension/appservice_kube-0.1.0-py2.py3-none-any.whl",
+                "filename": "appservice_kube-0.1.0-py2.py3-none-any.whl",
+                "metadata": {
+                    "azext.isPreview": true,
+                    "azext.minCliCoreVersion": "2.0.67",
+                    "extensions": {
+                        "python.details": {
+                            "contacts": [
+                                {
+                                    "email": "azpycli@microsoft.com",
+                                    "name": "Microsoft Corporation",
+                                    "role": "author"
+                                }
+                            ],
+                            "document_names": {
+                                "description": "DESCRIPTION.rst"
+                            },
+                            "project_urls": {
+                                "Home": "https://github.com/Azure/azure-cli-extensions"
+                            }
+                        }
+                    },
+                    "extras": [],
+                    "generator": "bdist_wheel (0.30.0)",
+                    "license": "MIT",
+                    "metadata_version": "2.0",
+                    "name": "appservice-kube",
+                    "run_requires": [
+                        {
+                            "requires": [
+                                "azure-cli-core"
+                            ]
+                        }
+                    ],
+                    "summary": "Microsoft Azure Command-Line Tools App Service on Kubernetes Extension",
+                    "version": "0.1.0"
+                },
+                "sha256Digest": "a124af484f98d77e9f8bdb0b8944ab7bf9fec63b8ff94cddc3c2d20386116cda"
+            }
+        ],
         "azure-batch-cli-extensions": [
             {
                 "downloadUrl": "https://github.com/Azure/azure-batch-cli-extensions/releases/download/azure-batch-cli-extensions-2.5.3/azure_batch_cli_extensions-2.5.3-py2.py3-none-any.whl",

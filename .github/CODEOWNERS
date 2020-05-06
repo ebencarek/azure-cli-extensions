@@ -117,3 +117,5 @@
 /src/log-analytics-solution/ @zhoxing-ms
 
 /src/kusto/ @ilayr @orhasban @astauben
+
+/src/appservice-kube/ @ebencarek
